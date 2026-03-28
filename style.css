@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    background: #222;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7DybTDM-LbBKSvHZs01aTWio3s4GIY2dvzIilz4PekXFz6cUZ3pyqtJ9Tt9IU5ecerW4EtB6YYatEA97XqcOVEeSbUgCN1eT7rahh4D4k77mVtrCtd51lXXDJ3mookE0/s220/naulesh.jpg') ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+}
+.hero-text h1 {
+    font-size: 50px;
+    color: white;
+}
+.hero-text span {
+    color: #00eaff;
+}
+.hero-text p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    background: #00eaff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Projects */
+.projects {
+    padding: 80px 20px;
+    background: #f2f2f2;
+}
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.project-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.project-card a {
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
